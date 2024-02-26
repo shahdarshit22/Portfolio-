@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-COMPATIBLE" content="IE=EDGE">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            darshit portfolio
+        </title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background-color: rgb(9, 15, 15);
+                color: rgb(241, 241, 241);
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            nav{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                height: 80px;
+                background-color: rgb(158, 221, 145);
+            }
+            nav ul{
+                display: flex;
+                justify-content: center;
+            }
+            nav ul li{
+                list-style: none;
+                margin: 0 23px;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: aliceblue;
+            }
+            nav ul li a:hover{
+                color:rgb(5, 27, 226);
+                font-size: 1.02rem;
+            }
+            main hr{
+                border: 0;
+                background:#9c97f1 ;
+                height: 1.2px;
+                margin: 60px 84px;
+            }
+            .left{
+                font-size: 2rem;
+            }
+            .firstsection{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin: 180px 0;
+            }
+            .firstsection >div{
+               width:30% ;
+            }
+            .leftsection{
+                font-size:3rem ;
+                margin: 70px 0;
+                
+            }
+            .leftsection.buttons{
+                padding: 43px;
+            }
+
+            .leftsection.btn{
+                padding: 12px ;
+                background: chartreuse;
+                color: white;
+                border: 2px solid white;
+                border-radius: 6px;
+                font-size: 20px;
+                cursor: pointer;
+                
+            }
+            .rightsection img{
+                width: 100%;
+            }
+            .purple{
+                color: chartreuse;
+
+            }
+            .text-gray{
+                color:chartreuse;
+            }
+            .secondsection{
+                max-width:80vw ;
+                margin: auto;
+                height: 80vh;
+            }
+            .secondsection .box{
+                background: #9c97f1;
+                width: 80vw;
+                height: 2px;
+                margin: 75px 0;
+                display: flex;
+
+            }
+            .secondsection .vertical{
+                height: 93px;
+                width: 1px;
+                background-color: #9c97f1;
+                margin: 0 165px;
+            }
+            .image-top{
+                width: 60px;
+                position: relative;
+                top: -46px;
+                left: -20px;
+            }
+            .secondsection h1{
+                font-size: 1.9rem;
+            }
+            .vertical-title{
+                position: relative;
+                top: 60px;
+                width: 190px;
+                font-size: 14px;
+            }
+            .vertical-desc{
+
+            }
+            footer{
+                background-color: chartreuse;
+                height: 45px;
+            }
+            .footer{
+                display: flex;
+                padding: 123px 122px ; 
+                justify-content: space-evenly;
+            }
+            .footer ul{
+                list-style: none;
+            }
+            .footer>div{
+                width:50px ;
+            }
+            footer .footer-rights{
+                text-align: center;
+                color: crimson;
+                padding: 12px 0;
+            }
+       </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="left">DARSHIT PORTFOLIO</div>
+                <div class="right">
+                    <ul>
+                        <li><a href="/">HOME</a></li>
+                        <li><a href="/">ABOUT ME</a></li>
+                        <li><a href="/">PROJECTS</a></li>
+                        <LI><a href="/">AWARDS</a></LI>
+                        <LI><a href="/">CONTACT ME</a></LI>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="firstsection">
+                <div class="leftsection">
+                    Hi, My name is<span class="purple"> DARSHIT</span> 
+                    
+                    <div>and I am a Student at </div>
+                    <div><span class="purple">V.J.T.I college</span></div>
+                    <div class="buttons">
+                        <button class="btn">DOWNLOAD CV</button>
+                    </div>
+                </div>
+                
+                <div class="rightsection">
+                    <img src="developer.png" alt="">
+                </div>
+            </section>
+            <hr>
+            <section class="secondsection">
+                <span class="text-gray">FIRST YEAR OF B.TECH</span>
+                <h1>COURSES COMPLETED</h1>
+                <div class="box">
+                    <div class="vertical">
+                        <img class="image-top" src="C-PROGRAMMING.png" alt="">
+                        <div class="vertical-title">
+                            C-PROGRAMMING
+                        </div>
+                        <div class="vertical-desc">
+                            
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="C++.jpg" alt="">
+                        <div class="vertical-title">
+                            C++ COURSE
+                        </div>
+                        <div class="vertical-desc">
+                            
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="DATA STRUCTURE.jpg" alt="">
+                        <div class="vertical-title">
+                            DATA STRUCTURES AND ALGORITHM
+                        </div>
+                        <div class="vertical-desc">
+                            
+                        </div>
+                    </div>
+                    
+
+                </div>
+
+            </section>
+        </main>
+        <footer>
+           
+            <div class="footer-rights">
+                Copyright &#169; www.darshitshahportfolio.com|All rights reserved
+            </div>
+        </footer>
+    </body>
+</html>
